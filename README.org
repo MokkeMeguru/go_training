@@ -1,0 +1,10 @@
+#+TITLE: Readme
+* Golang Tutorial
+Golang の仕様を思い出すためのチュートリアル
+
+
+* Requirements
+- go > 16
+
+* Usage
+see Makefile
