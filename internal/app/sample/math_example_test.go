@@ -34,3 +34,11 @@ func TestDivide_by_Zero(t *testing.T) {
 	expected := "invalid number y cannot be 0"
 	assert.Equal(t, expected, err.Error())
 }
+
+// TestMultiple ...
+func TestMultiple(t *testing.T) {
+	actual, err := multiple(2, 3)
+	expected := 6
+	assert.Equal(t, expected, actual)
+	assert.Equal(t, nil, err)
+}
